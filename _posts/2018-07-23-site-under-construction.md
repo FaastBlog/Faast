@@ -12,7 +12,7 @@ author: kilian
 
 ---
 
-## Welcome to Faast
+### Welcome to Faast
 
 Please be aware of the fact that this page is still under construction.
 We focus on delivering the best content for our readers.
