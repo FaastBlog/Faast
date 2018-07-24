@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url:  https://faastblog.github.io
-source_url:  https://github.com/FaastBlog/faastblog.github.io
+production_url:  https://faastblog.com
+source_url:  https://github.com/FaastBlog/faast
 
 # Social info
 navigation: True # show the navbar links
@@ -67,13 +67,13 @@ feed:
 # or "master" otherwise
 safe: False
 lsi: False
-username: faastblog
-repo: faastblog.github.io
+username: FaastBlog
+repo: faast
 branch: master
 relative_source: ../site/
 destination: ../site/
-production_url:  https://faastblog.github.io
-source_url:  https://github.com/faastblog/faastblog.github.io
+production_url:  https://faastblog.com
+source_url:  https://github.com/FaastBlog/faast
 
 exclude:
   - assets/css
