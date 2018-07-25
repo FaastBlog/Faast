@@ -45,6 +45,14 @@ permalink: /:title
 # gems and other configs
 plugins: [jekyll-paginate, jekyll-feed, jekyll-admin, jekyll-seo-tag, jekyll-sitemap]
 
+url: "https://www.faastblog.com"
+defaults:
+  -
+    scope:
+      path: "/google7602a4aeab5cf1dc.html"
+    values:
+      sitemap: false
+
 feed:
   path: feed.xml
 
