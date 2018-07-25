@@ -3,6 +3,7 @@ markdown: kramdown
 highlighter: rouge
 paginate: 25 # it will paginate after this number
 language: 'en-us'
+lang: 'en_US'
 future: true
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -35,17 +36,19 @@ google_analytics: UA-122678344-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
-# permalink: /author/:author
-# permalink: /tag/:tag
+permalink: /author/:author
+permalink: /tag/:tag
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
 
 # gems and other configs
-plugins: [jekyll-paginate, jekyll-feed]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-admin, jekyll-seo-tag]
 
 feed:
   path: feed.xml
+
+
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
