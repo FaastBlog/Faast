@@ -1,5 +1,5 @@
 {
-    "name": "casper",
+    "name": "faast",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://demo.ghost.io",
     "version": "2.1.9",
@@ -12,21 +12,10 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Kilian Stallinger",
+        "email": "kp.stallinger@gmail.com",
+        "url": "https://faastblog.com"
     },
-    "gpm": {
-        "type": "theme",
-        "categories": [
-            "Minimal",
-            "Magazine"
-        ]
-    },
-    "keywords": [
-        "ghost",
-        "theme"
-    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/TryGhost/Casper.git"
@@ -38,7 +27,7 @@
         "cssnano": "3.7.1",
         "gulp": "3.9.1",
         "gulp-livereload": "3.8.1",
-        "gulp-nodemon": "2.1.0",
+        "gulp-nodemon": "^2.2.1",
         "gulp-postcss": "6.1.1",
         "gulp-sourcemaps": "1.6.0",
         "gulp-util": "3.0.7",
