@@ -27,6 +27,7 @@ plugins:
   - jekyll-admin
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-pwa-plugin
 url: 'https://www.faastblog.com'
 defaults:
   - scope:
@@ -37,6 +38,12 @@ feed:
   path: feed.xml
 safe: false
 lsi: false
+pwa:
+  sw_src_filepath: service-worker.js
+  sw_dest_filename: service-worker.js
+  dest_js_directory: assets/js
+  precache_recent_posts_num: 6
+  precache_glob_directory: /
 username: FaastBlog
 repo: faast
 branch: master

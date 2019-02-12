@@ -1,0 +1,13 @@
+{
+    "name": "Faast Blog",
+    "short_name": "Faast",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "description": "",
+    "related_applications": [{
+        "platform": "Web",
+        "url": "https://www.faastblog.com"
+    }]
+}
