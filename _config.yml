@@ -27,7 +27,7 @@ plugins:
   - jekyll-admin
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-pwa-plugin
+  - jekyll-workbox-plugin
 url: 'https://www.faastblog.com'
 defaults:
   - scope:
