@@ -75,7 +75,7 @@ Ping wird ausgeführt für 172.17.67.110 mit 32 Bytes Daten:
         Minimum = 0ms, Maximum = 2ms, Mittelwert = 0ms
 ```
 
-Ali.it
+Ali.in
 ```bash
 Ping wird ausgeführt für ali.in [91.195.240.126] mit 32 Bytes Daten:
     Antwort von 91.195.240.126: Bytes=32 Zeit=26ms TTL=53
