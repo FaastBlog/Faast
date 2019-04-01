@@ -3,11 +3,11 @@ layout: post
 current: post
 cover:  assets/images/advanced.jpg
 navigation: True
-title: Advanced Markdown tips
-date: 2017-07-27 05:00:00
-tags: [Getting started]
+title: Netzwerk Analyse
+date: 2019-04-01 12:56:00
+tags: [Network]
 class: post-template
-subclass: 'post tag-getting-started'
+subclass: 'post tag-network'
 author: kilian
 published: True
 ---
@@ -62,13 +62,13 @@ Ethernet-Adapter LAN-Verbindung:
 
 Schulrechner:
 ```bash
-Ping wird ausgefhrt fr 172.17.67.110 mit 32 Bytes Daten:
+Ping wird ausgeführt für 172.17.67.110 mit 32 Bytes Daten:
     Antwort von 172.17.67.110: Bytes=32 Zeit=2ms TTL=128
     Antwort von 172.17.67.110: Bytes=32 Zeit<1ms TTL=128
     Antwort von 172.17.67.110: Bytes=32 Zeit<1ms TTL=128
     Antwort von 172.17.67.110: Bytes=32 Zeit<1ms TTL=128
 
-    Ping-Statistik fr 172.17.67.110:
+    Ping-Statistik für 172.17.67.110:
         Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
         (0% Verlust),
     Ca. Zeitangaben in Millisek.:
@@ -77,13 +77,13 @@ Ping wird ausgefhrt fr 172.17.67.110 mit 32 Bytes Daten:
 
 Ali.it
 ```bash
-Ping wird ausgefhrt fr ali.in [91.195.240.126] mit 32 Bytes Daten:
+Ping wird ausgeführt für ali.in [91.195.240.126] mit 32 Bytes Daten:
     Antwort von 91.195.240.126: Bytes=32 Zeit=26ms TTL=53
     Antwort von 91.195.240.126: Bytes=32 Zeit=25ms TTL=53
     Antwort von 91.195.240.126: Bytes=32 Zeit=27ms TTL=53
     Antwort von 91.195.240.126: Bytes=32 Zeit=25ms TTL=53
 
-    Ping-Statistik fr 91.195.240.126:
+    Ping-Statistik für 91.195.240.126:
         Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
         (0% Verlust),
     Ca. Zeitangaben in Millisek.:
@@ -91,13 +91,13 @@ Ping wird ausgefhrt fr ali.in [91.195.240.126] mit 32 Bytes Daten:
 ```
 Orf.at
 ```bash
-Ping wird ausgefhrt fr orf.at [194.232.104.150] mit 32 Bytes Daten:
+Ping wird ausgeführt für orf.at [194.232.104.150] mit 32 Bytes Daten:
     Antwort von 194.232.104.150: Bytes=32 Zeit=13ms TTL=54
     Antwort von 194.232.104.150: Bytes=32 Zeit=5ms TTL=54
     Antwort von 194.232.104.150: Bytes=32 Zeit=7ms TTL=54
     Antwort von 194.232.104.150: Bytes=32 Zeit=6ms TTL=54
 
-    Ping-Statistik fr 194.232.104.150:
+    Ping-Statistik für 194.232.104.150:
         Pakete: Gesendet = 4, Empfangen = 4, Verloren = 0
         (0% Verlust),
     Ca. Zeitangaben in Millisek.:
@@ -129,7 +129,7 @@ Ein Ping an einen indischen Server benötigt fast 30ms.
 
 www.htl-wels.at:
 ```bash
-Routenverfolgung zu www.htl-wels.at [10.34.57.251] ber maximal 30 Abschnitte:
+Routenverfolgung zu www.htl-wels.at [10.34.57.251] über maximal 30 Abschnitte:
 
   1    <1 ms    <1 ms    <1 ms  172.17.67.254 
   2    <1 ms    <1 ms    <1 ms  10.34.57.251 
@@ -137,7 +137,7 @@ Routenverfolgung zu www.htl-wels.at [10.34.57.251] ber maximal 30 Abschnitte:
 
 orf.at:
 ```bash
-Routenverfolgung zu orf.at [194.232.104.150] ber maximal 30 Abschnitte:
+Routenverfolgung zu orf.at [194.232.104.150] über maximal 30 Abschnitte:
 
   1    <1 ms    <1 ms    <1 ms  172.17.67.254 
   2    <1 ms    <1 ms    <1 ms  10.34.57.254 
@@ -154,7 +154,7 @@ Routenverfolgung zu orf.at [194.232.104.150] ber maximal 30 Abschnitte:
 
 ali.in:
 ```bash
-Routenverfolgung zu ali.in [91.195.240.126] ber maximal 30 Abschnitte:
+Routenverfolgung zu ali.in [91.195.240.126] über maximal 30 Abschnitte:
 
   1    <1 ms    <1 ms    <1 ms  172.17.67.254 
   2    <1 ms    <1 ms    <1 ms  10.34.57.254 
