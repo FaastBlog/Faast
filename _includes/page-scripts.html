@@ -3,6 +3,12 @@ $(function() {
     var $postContent = $(".post-full-content");
     $postContent.fitVids();
 });
+    
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker.register("/sw.js");
+  });
+}
 </script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
