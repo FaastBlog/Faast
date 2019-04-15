@@ -1,13 +1,9 @@
 // sw.js
 
-// set names for both precache & runtime cache
-workbox.core.setCacheNameDetails({
-    prefix: "faast.com",
-    suffix: "v1",
-    precache: "precache",
-    runtime: "runtime-cache"
-  });
-  
-  // let Workbox handle our precache list
-  // NOTE: This will be populated by jekyll-workbox-plugin.
-  workbox.precaching.precacheAndRoute([]);
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox-sw.js');
+
+if (workbox) {
+  console.log(`Yay! Workbox is loaded 🎉`);
+} else {
+  console.log(`Boo! Workbox didn't load 😬`);
+}
