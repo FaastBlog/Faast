@@ -9,7 +9,7 @@ tags: [Network]
 class: post-template
 subclass: 'post tag-network'
 author: kilian
-published: True
+published: false
 ---
 
 # Bericht Netzwerkanalyse
